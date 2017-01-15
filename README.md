@@ -6,8 +6,8 @@
 
 **File structure:**  
 
-- **"WEBROOT/index.php"** - Main PHP script.  
-- **"WEBROOT/.htaccess"** - URL rewrite rules for SEO URLs.  
+- **WEBROOT/index.php** - Main PHP script.  
+- **WEBROOT/.htaccess** - URL rewrite rules for SEO URLs.  
 
 **Directory structure:**  
 
