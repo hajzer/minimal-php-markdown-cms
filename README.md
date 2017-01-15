@@ -44,3 +44,10 @@ Example: mkdir ./content/category1
 - On web server inside **"category"** directory:
   - create markdown index file \(**"index.md"**\)  
   - create other markdown files \(**"document.md"**\) for documents
+
+
+
+## Demo
+
+[www.linuxor.sk](http://www.linuxor.sk)
+
