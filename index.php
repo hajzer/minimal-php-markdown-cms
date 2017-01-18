@@ -4,7 +4,10 @@
 /* PREPARE URL CAT ARGUMENT */
 if (isset($_GET['cat']) && is_string($_GET['cat']) && $_GET['cat']!="")
 {
-	$cat = $_GET['cat'];
+    $cat = $_GET['cat'];
+
+    // decode URL
+    $cat = urldecode ($cat);
 	
     // everything to lower and no spaces begin or end
     $escape_filepath = strtolower(trim($cat));
@@ -36,7 +39,10 @@ else
 /* PREPARE URL DOC ARGUMENT */
 if (isset($_GET['doc']) && is_string($_GET['doc']) && $_GET['doc']!="")
 {
-	$doc = $_GET['doc'];
+    $doc = $_GET['doc'];
+
+    // decode URL
+    $doc = urldecode ($doc);
 
     // everything to lower and no spaces begin or end
     $escape_filename = strtolower(trim($doc));
